@@ -8,5 +8,6 @@ Based on latest debian.
 - Explain how to use.
 - Put database files inside a volume.
 - Support several databases?
+- Support TLS
 - Create a more usable schema and fil the directory with some basics entries.
 
