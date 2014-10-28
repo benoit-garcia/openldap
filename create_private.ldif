@@ -1,0 +1,26 @@
+## Build the people ou.
+dn: ou=people,dc=exemple,dc=com
+ou: people
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+
+## Build the contactse ou.
+dn: ou=contacts,dc=exemple,dc=com
+ou: contacts
+objectClass: organizationalUnit
+
+## Build the group ou.
+dn: ou=groups,dc=exemple,dc=com
+ou: group
+objectClass: organizationalUnit
+
+## Build the services ou.
+dn: ou=services,dc=exemple,dc=com
+ou: services
+objectClass: organizationalUnit
+
+## Build the hosts ou.
+dn: ou=hosts,dc=exemple,dc=com
+ou: hosts
+objectClass: organizationalUnit
+
