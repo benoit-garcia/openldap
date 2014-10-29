@@ -6,7 +6,6 @@ EXPOSE		389
 
 # Update package repository and install OpenLDAP 
 RUN		LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get -y update
-RUN		LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 RUN		LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get -y install slapd
 
 # Remove default configuration
