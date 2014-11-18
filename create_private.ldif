@@ -2,7 +2,6 @@
 dn: ou=people,dc=exemple,dc=com
 ou: people
 objectClass: organizationalUnit
-objectClass: organizationalUnit
 
 ## Build the contactse ou.
 dn: ou=contacts,dc=exemple,dc=com
