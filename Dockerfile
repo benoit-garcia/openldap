@@ -23,6 +23,7 @@ ONBUILD		RUN LC_ALL=C DEBIANT_FRONTEND=noninteractive dpkg-reconfigure -f nonint
 # Create initial directory
 ONBUILD		ADD create_private.ldif /tmp/create_private.ldif
 ONBUILD		RUN /usr/sbin/slapadd -v -l /tmp/create_private.ldif
+ONBUILD		RUN /usr/sbin/ldappasswd -xWD cn=admin,dc=exemple,dc=com -S uid=jsmith,ou=people,dc=exemple,dc=com
 
 # Clean everything
 
