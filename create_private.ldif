@@ -23,3 +23,22 @@ dn: ou=hosts,dc=exemple,dc=com
 ou: hosts
 objectClass: organizationalUnit
 
+# Create a user account
+dn: uid=jsmith,ou=people,dc=exemple,dc=com
+cn: John Smith
+givenName: John
+sn: Smith
+uid: jsmith
+uidNumber: 10000
+gidNumber: 10000
+homeDirectory: /home/jsmith
+mail: jsmith@exemple.com
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+loginShell: /bin/bash
+userPassword: {CRYPT}*
+
